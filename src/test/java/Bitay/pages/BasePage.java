@@ -25,8 +25,6 @@ public abstract class BasePage {
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/nav[1]/div[2]/div[5]/a[1]/strong[1]")
     public WebElement game;
 
-    @FindBy(xpath = "//a[contains(text(),'My Account')]")
-    public WebElement myAccount;
 
 
 }

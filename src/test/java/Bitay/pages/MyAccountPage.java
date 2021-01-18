@@ -9,8 +9,6 @@ public class MyAccountPage extends BasePage{
 
     public MyAccountPage() {
         PageFactory.initElements(Driver.get(), this);}
-        @FindBy(tagName = "title")
-        public WebElement pageTitle;
 
         @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]")
         public WebElement bakiye;
